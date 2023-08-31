@@ -1,3 +1,5 @@
+import { InitialState } from "../Types";
+
 const initialState: InitialState = {
     videos: [],
     currentPlaying: null,
@@ -7,4 +9,3 @@ const initialState: InitialState = {
     recommendedVideos: [],
   };
 
-  
