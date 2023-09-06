@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Card from "../components/Card";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import Spinner from "../components/Spinner";
+import Card from "../compnents/Card";
+import Navbar from "../compnents/Navbar";
+import Sidebar from "../compnents/Sidebar";
+import Spinner from "../compnents/Spinner";
 import { clearVideos } from "../store";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { getHomePageVideos } from "../store/reducers/getHomePageVideos";

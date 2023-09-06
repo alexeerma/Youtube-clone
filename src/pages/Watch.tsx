@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "../compnents/Navbar";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { getRecommendedVideos } from "../store/reducers/getRecommendedVideos";
 import { getVideoDetails } from "../store/reducers/getVideoDetails";
@@ -9,7 +9,7 @@ import { HiScissors } from "react-icons/hi";
 import { MdOutlinePlaylistAdd } from "react-icons/md";
 import { FaShare } from "react-icons/fa";
 import { BsThreeDots } from "react-icons/bs";
-import WatchCard from "../components/WatchCard";
+import WatchCard from "../compnents/WatchCard";
 export default function Watch() {
   const [showMoreStatus, setShowMoreStatus] = useState<boolean>(false);
   const { id } = useParams();
