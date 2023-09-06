@@ -7,6 +7,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { changeSearchTerm, clearSearchTerm, clearVideos } from "../store";
 import { getSearchPageVideos } from "../store/reducers/getSearchPageVideos";
+import { logo } from "../assets";
 
 export default function Navbar() {
   const location = useLocation();
@@ -79,7 +80,7 @@ export default function Navbar() {
           </span>
         </div>
         <img
-          src="https://yt3.ggpht.com/wgnEbc2Ec2JYkeyzUbiHzDlAFObI2Btwo2YRCEF1aCMBiRc5E_zWy8-URBQS3EMQ1yzzaGFR=s88-c-k-c0x00ffffff-no-rj-mo"
+          src={logo}
           className="w-9 h-9 rounded-full"
           alt="logo"
         />

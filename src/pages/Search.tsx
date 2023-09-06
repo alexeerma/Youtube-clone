@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import SearchCard from "../compnents/SearchCard";
 import Navbar from "../compnents/Navbar";
