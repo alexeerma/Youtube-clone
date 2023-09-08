@@ -38,17 +38,17 @@ export default function Watch() {
   return (
     <>
       {currentPlaying && currentPlaying?.videoId === id && (
-        <div className="max-h-screen overflow-hidden">
+        <div className="max-h-screen overflow-hidden rounded-lg">
           <div style={{ height: "7.5vh" }}>
             <Navbar />
           </div>
           <div className="flex w-full" style={{ height: "92.5vh" }}>
-            <div className="flex gap-y-10 gap-x-5 p-7 mx-20 mr-0 w-full overflow-auto">
-              <div style={{ maxWidth: "800px" }}>
+            <div className="flex gap-y-10 gap-x-5 p-7 mx-20 mr-0 w-full overflow-auto rounded-lg">
+              <div style={{ maxWidth: "1200px" }}>
                 <div>
                   <iframe
-                    width="800"
-                    height="502"
+                    width="1200"
+                    height="602"
                     src={`https://www.youtube.com/embed/${id}?autoplay=1`}
                     title="YouTube video player"
                     frameBorder="0"
