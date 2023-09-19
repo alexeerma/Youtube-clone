@@ -121,7 +121,7 @@ import {
 
   return (
     <div className="w-2/12 bg-[#212121] pt-12 pr-5 overflow-auto pb-6 sidebar">
-      <ul className="flex flex-col border-b-2 border-gray-700">
+      <ul className="flex flex-col border-b-2 border-gray-600">
         {mainLinks.map(({ icon, name }) => {
           return (
             <li
@@ -138,7 +138,7 @@ import {
           );
         })}
       </ul>
-      <ul className="flex flex-col border-b-2 border-gray-700">
+      <ul className="flex flex-col border-b-2 border-gray-600">
         {secondaryLinks.map(({ icon, name }) => {
           return (
             <li key={name} className={`pl-6 py-3 hover:bg-zinc-600 `}>
@@ -150,7 +150,7 @@ import {
           );
         })}
       </ul>
-      <ul className="flex flex-col border-b-2 border-gray-700">
+      <ul className="flex flex-col border-b-2 border-gray-600">
         {subscriptionLinks.map(({ icon, name }) => {
           return (
             <li key={name} className={`pl-6 py-3 hover:bg-zinc-600 `}>
